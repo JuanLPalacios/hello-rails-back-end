@@ -1,24 +1,60 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# hello-rails-back-end
 
-Things you may want to cover:
+> Ralis - React integration demo back-end
 
-* Ruby version
 
-* System dependencies
+## Getting Started
 
-* Configuration
+### Setup
 
-* Database creation
+clone this repository at the desired directory, Install dependencies
 
-* Database initialization
+```
+bundle install
+```
 
-* How to run the test suite
+Start by setting up the db
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails db:create
+rails db:schema:load
+rails db:seed
+```
 
-* Deployment instructions
+Start Rails Server
 
-* ...
+```
+rails s
+```
+now start the (hello-rails-front-end)[https://github.com/JuanLPalacios/hello-rails-front-end]
+
+
+## Built With
+
+- Ruby
+- Rails
+- Rack-cors
+
+## Authors
+
+👤 **Juan Luis Palacios**
+
+- GitHub: [@JuanLPalacios](https://github.com/JuanLPalacios)
+- Twitter: [@JuanLuisPalac20](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-luis-palacios-p%C3%A9rez-95b39a228/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](./issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
