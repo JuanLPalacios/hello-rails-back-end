@@ -28,7 +28,7 @@ Start Rails Server
 ```
 rails s
 ```
-now start the (hello-rails-front-end)[https://github.com/JuanLPalacios/hello-rails-front-end]
+now start the [hello-rails-front-end](https://github.com/JuanLPalacios/hello-rails-front-end)
 
 
 ## Built With
